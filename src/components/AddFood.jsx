@@ -42,7 +42,7 @@ const AddFood = () => {
         <div className="field">
              <label htmlFor="" className="label"></label>
                 <div className="control">
-                    <input type="text" className='input' defaultValue={gambar} onChange={(e) => setGambar(e.target.value)} placeholder='gambar' />
+                    <input type="text" className='input' defaultValue={gambar} onChange={(e) => setGambar(e.target.value)} placeholder='Masukkan Url Gambar' />
                  </div>
         </div>
         {/* Button */}

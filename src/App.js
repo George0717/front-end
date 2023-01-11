@@ -15,6 +15,7 @@ function App() {
   return (
     <BrowserRouter>
     <NavbarComponent />
+    <div className="container">
     <Routes>
     <Route path="/" element={<About />} />
     {/* Food */}
@@ -30,6 +31,8 @@ function App() {
       <Route path="/addDessert" element={<AddDessert />} />
       <Route path="/editDessert/:id" element={<EditDessert />} />
     </Routes>
+    </div>
+   
     
     </BrowserRouter>
     
