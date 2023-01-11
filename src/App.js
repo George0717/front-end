@@ -14,8 +14,8 @@ import EditDessert from "./components/Dessert/EditDessert";
 function App() {
   return (
     <BrowserRouter>
-    <NavbarComponent />
     <div className="container">
+    <NavbarComponent />
     <Routes>
     <Route path="/" element={<About />} />
     {/* Food */}
