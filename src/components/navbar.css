@@ -1,0 +1,25 @@
+*{
+    font-size: 20px;
+}
+
+
+
+.petunjuk .home{
+    padding-right: 10px;
+    margin-left: 450px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}.petunjuk .makanan{
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+}.petunjuk .minuman{
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+}.petunjuk .cemilan{
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+}

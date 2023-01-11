@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+
+.about {    
+background-image: url("../image/back-resto2.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 700px;
+display: flex;
+width: 100%;
+color: white;
+}
+
+.i-left{
+background-image: url("../image/back-resto2.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+flex: 1;
+width: 400px;
+color: white;
+text-align: center;
+}
+.i-right{
+background-image: url("../image/food.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+flex: 1;
+
+}
+
+.i-left .title{
+    padding-top: 70px;
+    font-size: 70px;
+    text-align: left;
+    padding-left: 30px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
