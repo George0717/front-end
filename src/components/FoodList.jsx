@@ -56,7 +56,6 @@ const deleteFood = async (id) => {
                 <td>{res.harga}</td>
                 <td><img src={res.gambar} alt="" width="300px"/></td>
                 <td>
-                    <Link to={`edit/${res._id}`} className='button is-info is-small'>Edit</Link>
                     <button onClick={() => {
                         deleteFood(res._id)
                     }} className='button is-danger is-small'>Delete</button>
