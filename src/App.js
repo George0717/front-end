@@ -14,7 +14,7 @@ import EditDessert from "./components/Dessert/EditDessert";
 function App() {
   return (
     <BrowserRouter>
-    <div className="container">
+    
     <NavbarComponent />
     <Routes>
     <Route path="/" element={<About />} />
@@ -31,7 +31,7 @@ function App() {
       <Route path="/addDessert" element={<AddDessert />} />
       <Route path="/editDessert/:id" element={<EditDessert />} />
     </Routes>
-    </div>
+    
    
     
     </BrowserRouter>
